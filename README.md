@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>LEADERBOARD PROJECT</b></h3>
+# <h3><b>LEADERBOARD PROJECT</b></h3>
 
 </div>
 
