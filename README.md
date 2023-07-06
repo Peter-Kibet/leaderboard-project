@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](..........)
+- [Live Demo Link](<[Leaderboard](https://peter-kibet.github.io/leaderboard-project/)>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +87,7 @@ In order to run this project you need:
 
 1. Clone this repository to your desired folder:
 
-git clone .............
+git clone [leaderboards](https://github.com/Peter-Kibet/leaderboard-project)
 
 2. Navigate to the project's root directory:
 
