@@ -3,18 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
+    <title>Leaderboard</title>
   </head>
   <body>
-    <h1>Hello webpack!</h1>
-    <div>
-      <button id="btn">Click me</button>
-      <p id="text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-        nobis iusto libero enim laboriosam dolore. Nam ad atque porro accusamus
-        sunt tenetur nostrum harum hic architecto ipsum laboriosam, minima
-        neque!
-      </p>
-    </div>
+    <section class="leaderboards">
+      <h1 class="heading">Leaderboard</h1>
+
+      <div class="score-dashboard">
+        <div class="left-column">
+          <div class="recent-score">
+            <h3>Recent scores</h3>
+            <button class="refresh">Refresh</button>
+          </div>
+          <div class="score-table">
+            <div class="score">
+              <p class="name">Name</p>
+              <span class="score">100</span>
+            </div>
+
+            <div class="score">
+              <p class="name">Name</p>
+              <span class="score">20</span>
+            </div>
+
+            <div class="score">
+              <p class="name">Name</p>
+              <span class="score">50</span>
+            </div>
+
+            <div class="score">
+              <p class="name">Name</p>
+              <span class="score">78</span>
+            </div>
+
+            <div class="score">
+              <p class="name">Name</p>
+              <span class="score">125</span>
+            </div>
+
+            <div class="score">
+              <p class="name">Name</p>
+              <span class="score">77</span>
+            </div>
+
+            <div class="score">
+              <p class="name">Name</p>
+              <span class="score">42</span>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="add-score">
+            <h3>Add your score</h3>
+            <form action="">
+              <label for="name"></label>
+              <input type="text" id="name" placeholder="Enter your name" />
+              <label for="score"></label>
+              <input type="number" id="score" placeholder="Enter your score" />
+              <button class="add">Add</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
