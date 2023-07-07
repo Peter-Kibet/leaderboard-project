@@ -16,55 +16,24 @@
             <button class="refresh">Refresh</button>
           </div>
           <div class="score-table">
-            <div class="score">
-              <p class="name">Name</p>
-              <span class="score">100</span>
-            </div>
-
-            <div class="score">
-              <p class="name">Name</p>
-              <span class="score">20</span>
-            </div>
-
-            <div class="score">
-              <p class="name">Name</p>
-              <span class="score">50</span>
-            </div>
-
-            <div class="score">
-              <p class="name">Name</p>
-              <span class="score">78</span>
-            </div>
-
-            <div class="score">
-              <p class="name">Name</p>
-              <span class="score">125</span>
-            </div>
-
-            <div class="score">
-              <p class="name">Name</p>
-              <span class="score">77</span>
-            </div>
-
-            <div class="score">
-              <p class="name">Name</p>
-              <span class="score">42</span>
-            </div>
+            <!-- Scores will be dynamically added here -->
           </div>
         </div>
         <div class="right-column">
           <div class="add-score">
             <h3>Add your score</h3>
-            <form action="">
-              <label for="name"></label>
+            <form id="score-form">
+              <label for="name">User:</label>
               <input type="text" id="name" placeholder="Enter your name" />
-              <label for="score"></label>
+              <label for="score">Score:</label>
               <input type="number" id="score" placeholder="Enter your score" />
-              <button class="add">Add</button>
+              <button type="submit" class="add">Add</button>
             </form>
           </div>
         </div>
       </div>
     </section>
+
+    <script src="bundle.js"></script>
   </body>
 </html>
