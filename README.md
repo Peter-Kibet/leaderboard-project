@@ -61,9 +61,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](<[Leaderboard](https://peter-kibet.github.io/leaderboard-project/)>)
+- [Live Demo Link](<[Leaderboard](https://peter-kibet.github.io/leaderboard-project/)>) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,8 +159,8 @@ npx eslint .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- COLLABRATIONS-->
-
-## 👥 Collaborations <a name="collaborations"></a>
+<!--
+## 👥 Collaborations <a name="collaborations"></a> -->
 
 <!-- FUTURE FEATURES -->
 
@@ -204,6 +204,6 @@ I would like to thank my team on supporting me with this journey!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
